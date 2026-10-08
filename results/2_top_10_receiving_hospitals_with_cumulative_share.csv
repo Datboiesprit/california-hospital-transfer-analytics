@@ -1,0 +1,11 @@
+hospital_name,city,transfers,pct_of_all,cumulative_pct
+Patients' Hospital Of Redding,Redding,852,9.5,9.5
+Kaiser Foundation Hospital - Downey,Downey,577,6.4,15.9
+Sutter Auburn Faith Hospital,Auburn,361,4.0,19.9
+Lac/Olive View-Ucla Medical Center,Sylmar,295,3.3,23.2
+Alta Bates Summit Medical Center,Oakland,272,3.0,26.2
+Providence Holy Cross Medical Center,Mission Hills,138,1.5,27.7
+Mercy Hospital Of Folsom,Folsom,134,1.5,29.2
+Whittier Hospital Medical Center,Whittier,128,1.4,30.6
+Ucsf Health Saint Francis Hospital,San Francisco,95,1.1,31.7
+Glendale Adventist Medical Center,Glendale,94,1.0,32.7

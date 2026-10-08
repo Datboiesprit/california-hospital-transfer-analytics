@@ -1,0 +1,6 @@
+mode_name,transfers,median_miles,median_transport_min,avg_acuity
+Rotor Air,1377,76.0,45.0,1.58
+Ground ALS,2414,42.0,83.0,2.85
+Critical Care Ground,1814,45.0,88.0,1.9
+Fixed-Wing Air,206,195.0,97.0,1.77
+Ground BLS,2293,57.0,123.0,3.82

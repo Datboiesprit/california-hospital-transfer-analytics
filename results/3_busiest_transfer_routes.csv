@@ -1,0 +1,11 @@
+from_hospital,to_hospital,miles,transfers
+Providence Redwood Memorial Hospital (Fortuna),Patients' Hospital Of Redding (Redding),88.0,63
+Mercy Medical Center Of Mt Shasta (Mount Shasta),Patients' Hospital Of Redding (Redding),52.0,62
+Fairchild Medical Center (Yreka),Patients' Hospital Of Redding (Redding),82.0,62
+Mayers Memorial Hospital (Fall River Mills),Patients' Hospital Of Redding (Redding),60.0,55
+Modoc Medical Center (Alturas),Patients' Hospital Of Redding (Redding),118.0,53
+Seneca District Hospital (Chester),Patients' Hospital Of Redding (Redding),66.0,50
+Surprise Valley Community Hospital (Cedarville),Patients' Hospital Of Redding (Redding),136.0,49
+Banner Lassen Medical Center (Susanville),Patients' Hospital Of Redding (Redding),96.0,48
+Trinity Hospital (Weaverville),Patients' Hospital Of Redding (Redding),29.0,43
+Jerold Phelps Community Hospital (Garberville),Patients' Hospital Of Redding (Redding),76.0,40

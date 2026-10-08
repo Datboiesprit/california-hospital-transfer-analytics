@@ -1,0 +1,5 @@
+check_name,failures
+Completed but missing arrival time,0
+Arrived before pickup,0
+Origin same as destination,0
+Transfer to unknown hospital,0

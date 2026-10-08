@@ -1,0 +1,18 @@
+# Generated data: rebuild by running the pipeline
+data/
+*.duckdb
+*.duckdb.wal
+
+# Personal practice files
+practice.sql
+practice.py
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.DS_Store
