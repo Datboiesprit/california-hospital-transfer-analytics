@@ -80,23 +80,40 @@ Every step can be rerun safely: the database is rebuilt from scratch on each loa
 
 ## Key Findings
 
-<!--
-TODO (Spri): Add your findings here, one per bullet or short paragraph.
-Pattern: number + comparison + so what.
-Include: day vs. night dispatch, neonatal routing, rotor air vs. critical care ground.
-Optional: dispatch time by acuity, or regional hub concentration.
--->
+**1. Overnight requests wait about 40% longer for dispatch.**
+Transfers requested overnight had a median dispatch wait of 42 minutes,
+compared with 30 minutes during the day. If this pattern held in real data,
+overnight staffing for transfer coordination would be worth a closer look.
+
+**2. Most neonatal transfers go to children's hospitals, and acuity
+doesn't explain the rest.**
+79% of neonatal transfers were sent to children's hospitals. Patients sent
+elsewhere had nearly the same average acuity (2.47 vs. 2.34), which suggests
+something other than how sick the patient was, such as distance or bed
+availability, drove those destination choices.
+
+**3. Rotor air transport is about 3x faster than critical care ground.**
+Helicopter transfers covered an average of 76 miles in 45 minutes, while
+critical care ground transfers covered 45 miles in 88 minutes. Air
+transport moved patients farther in about half the time.
 
 ## Limitations
 
-<!--
-TODO (Spri): Add limitations here. Things to cover:
-- Which data is real vs. synthetic
-- Hub selection within a region is randomized (CMS data has no trauma level designations or bed counts)
-- Neonatal routing to children's hospitals is randomized at 80%, independent of acuity
-- Distances are straight lines between ZIP code centers, not exact hospital addresses
-- 7 hospitals had no ZIP match and use their county's average location
--->
+- **The transfer data is synthetic.** Hospital data comes from the real CMS
+  Provider Data API, but the 9,000 patient transfers were generated for this
+  project. The findings show how the pipeline and analysis work. They are not
+  real-world conclusions, and some patterns may reflect assumptions built
+  into the data generator.
+- **Distances are approximate.** Hospital locations come from ZIP code
+  coordinates in the Census Gazetteer, not exact addresses, and distances
+  don't account for actual road or flight routes.
+- **California only.** The pipeline covers the 377 California hospitals
+  returned by the CMS API, so results may not reflect other states.
+- **Point-in-time snapshot.** CMS hospital data changes over time. The
+  pipeline reflects the data as of when it was last run.
+- **No real operational factors.** Bed availability, weather, staffing, and
+  hospital capacity aren't modeled, even though they affect real transfer
+  decisions.
 
 ## Engineering Notes
 
